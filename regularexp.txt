@@ -1,1 +1,11 @@
+m/...../  -->  identifies 5 characters except newline
+
+m/l+/  -->  identifies one or more l consective times
+
+m/...../|m/l+/   -->  combining two or more regular expression by using | operator
+
+
+
+^[ \t]+|[ \t]+$  -->  identifies space in starting or ending of entire text given
+
 (?<=\.) {2,}(?=[a-z]|[A-Z])		-->		identifies 2 or more spaces after "."
