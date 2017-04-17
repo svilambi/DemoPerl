@@ -2,6 +2,8 @@ m/...../  -->  identifies 5 characters except newline
 
 m/l+/  -->  identifies one or more l consective times
 
+m/l*/  -->  identifies Zero or more l consective times
+
 m/...../|m/l+/   -->  combining two or more regular expression by using | operator
 
 
