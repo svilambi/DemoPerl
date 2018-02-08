@@ -12,7 +12,7 @@ m/...../|m/l+/   -->  combining two or more regular expression by using | operat
 
 ---------------------------------------------------------------------
 
-ADSO\-\d{3,4} /ig
+ADSO\-\d{3,4} /ig  --> to find ADSO issues
 
 (\D{3,4}\-\d{3,4})/ig
 
