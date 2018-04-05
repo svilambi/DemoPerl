@@ -17,3 +17,10 @@ ADSO\-\d{3,4} /ig  --> to find ADSO issues
 (\D{3,4}\-\d{3,4})/ig
 
 (DB.*(\w+\-\d{1,}))
+
+---------------------------------------------------------------------
+cryon expression
+
+0 0 21 ? * MON,TUE,WED,THU,FRI *
+
+0 0 6 * * % Select_Branch=origin/REL-3.2.0100-Jenkins
